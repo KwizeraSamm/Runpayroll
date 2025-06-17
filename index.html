@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <title>Run Payroll</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-row row1">
+      <div class="row1-col1">
+        <div style="border: 1px solid lightgray; padding: 6px">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <span>
+          <span style="font-family: 'Times New Roman', Times, serif; font-size: x-large;">Run Payroll</span>
+        </span>
+      </div>
+      <div class="row1-col2">
+        <i class="fa-regular fa-calendar-minus" style="margin-left: -15px;"></i>
+        <div style="border-left: 1px solid rgb(240, 238, 238); padding: 7px; margin-left: -30px;">
+        </div>
+        <strong
+          style="color: rgb(218, 214, 214); font-size: 11px; border: none; margin-left:9px; font-family: Arial, Helvetica, sans-serif;">Pay
+          Period:</strong> July 01st - 31st
+      </div>
+    </div>
+    <div class="main-row row2">
+      <div class="row2-col1">
+        <div class="row">
+          <div class="num-dots">
+            <i class="fa-solid fa-circle-check done"></i>
+            <div class="dots" style="border-color: black;"></div>
+          </div>
+          <div class="text-group">
+            <div class="text-headline">Pay period & Employee</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="num-dots">
+            <i class="fa-solid fa-circle-check done"></i>
+            <div class="dots" style="border-color: black;"></div>
+          </div>
+          <div class="text-group">
+            <div class="text-headline">Total hours</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="num-dots">
+            <i class="fa-solid fa-circle-check done"></i>
+            <div class="dots" style="border-color: black;"></div>
+          </div>
+          <div class="text-group">
+            <div class="text-headline">Time Off</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="num-dots">
+            <div class="circle">4</div>
+            <div class="dots" style="border-color: orange;"></div>
+          </div>
+          <div class="text-group">
+            <div class="text-headline">Review Payroll</div>
+            <div class="text-underline"><small>Review your payroll total payment</small> </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="num-dots">
+            <div class="circle gray-circle">5</div>
+          </div>
+          <div class="text-group">
+            <div class="text-headline">Success</div>
+          </div>
+        </div>
+      </div>
+      <div class="row2-col2">
+        <div class="REVI">
+          <div class="rev">
+            <h2><strong> Review payroll</strong></h2>
+            <p>Please spend a brief moment reviewing this numbers, time off and aadtional earning</p>
+          </div>
+        </div>
+
+        <div class="right-section">
+          
+          <div class="P">
+            <div class="top-section">
+              <img src="figma1.png" class="fig">
+              <div class="pr">
+                <p>Paié will debit from your</p>
+              </div>
+              <div class="payment">
+
+                <labe><select class="pay">
+                    <option value="" style="text-align: center;">Master card</option>
+                    <option value="">Visa card</option>
+                    <option value="">MTN</option>
+                  </select>
+              </div>
+            </div>
+            <div class="nu">
+              <h1>$111,607.09</h1>
+              <p>On July 30th, and 22 employee will be paid at 1st Aug</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-left-section">
+          <div class="det">
+            <h4 style="color: black;">Detail Payment</h1>
+              <div id="total" style="display: flex; justify-content: space-between;margin-top: 12px;">
+                <div class="p">Total net wages</div>
+                <div class="money">$110,607.09</div>
+              </div>
+              <div id="total" style="display: flex; justify-content: space-between;margin-top: 25px;">
+                <div class="p">Total Company taxes</div>
+                <div class="money" style="margin-left: 13px;">$1,607.09</div>
+              </div>
+              <div id="total" style="display: flex; justify-content: space-between;margin-top: 25px;">
+                <div class="p">Total Reimbursement</div>
+                <div class="money" style="margin-left: 56px;">$0</div>
+              </div>
+
+              <div id="total" style="display: flex; justify-content: space-between;margin-top: 25px;">
+                <div class="p">Total Company Benefit</div>
+                <div class="money" style="margin-left: 16px;">$1,607.09</div>
+              </div>
+              <hr style="border-top: 1px solid rgb(241, 240, 240);margin-top: 15px;">
+              <div id="total" style="display: flex; justify-content: space-between;margin-top: 25px;">
+                <div style="align-self: center; margin-top: -20px;">Total Payroll</div>
+                <div class="money" style="font-size: 16px; margin-top: -16px;">$121,607.09</div>
+              </div>
+          </div>
+          <div class="botton-right-section">
+            <img src="undraw_To.png" class="term"> 
+            <h4 class="hp">Run Payroll Summary</h4>
+             <h5 class="hd">View Full Summary</h5> 
+          </div>
+
+        </div>
+        <hr style="border-top: 1px solid rgb(241, 240, 240);margin-top: 25px;">
+        <div class="but" style="display: flex; justify-content: space-between;">
+            <button class="can"><u style="text-decoration: underline; text-decoration-style: dotted;">Cancel</u></button>
+            <div>
+              <button class="save"><u style="text-decoration: underline; text-decoration-style: dotted;">Save as draft</u></button>
+              <button class="butt">Previous</button>
+              <button class="bttn">Next</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="div-9-section">
+      <div class="a">
+        <a>@ Paie 2022</a><a> .  Account term of use </a><a> . General term of service</a><a> . Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
